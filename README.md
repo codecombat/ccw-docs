@@ -20,3 +20,12 @@ conda install -c conda-forge jupyter-book
 ```
 
 This will install everything you need to build a Jupyter Book locally.
+
+
+# Usage
+
+## TL;DR
+
+```
+jb clean ccwbook; jb build ccwbook ; open ccwbook/_build/html/index.html
+```
