@@ -1,9 +1,11 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: CodeCombat Worlds Documentation
-author: CodeCombat Team
-logo: CodeCombatWorldsLogo2x.png
+title: ""
+author: CodeCombat
+logo: assets/CodeCombatWorldsLogo2x.png
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
+only_build_toc_files: false
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -28,5 +30,7 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: true
-  use_repository_button: true
+  use_issues_button: false
+  use_repository_button: false
+  extra_footer: ""
+  home_page_in_navbar: false
