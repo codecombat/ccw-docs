@@ -9,11 +9,11 @@ defaults:
 parts:
 - caption: Play
   chapters:
-  - file: pages/play/pets_intro
-  - file: pages/play/monsters_intro
+  - file: parts/play/pets_intro
+  - file: parts/play/monsters_intro
 - caption: Code
   chapters:
-  - file: pages/code/code_intro
+  - file: parts/code/code_intro
 - caption: Create
   chapters:
-  - file: pages/create/creative_intro
+  - file: parts/create/creative_intro
