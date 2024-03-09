@@ -10,6 +10,12 @@ parts:
 - caption: Play
   chapters:
   - file: parts/play/pets_intro
+    sections:
+    - file: parts/play/pet_list
+      sections:
+      - file: parts/play/pets/timberwoof
+      - file: parts/play/pets/allycat
+      - file: parts/play/pets/hoverfish
   - file: parts/play/monsters_intro
   - file: parts/play/battle_abilities
 - caption: Code

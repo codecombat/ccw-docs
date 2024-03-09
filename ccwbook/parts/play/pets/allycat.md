@@ -1,5 +1,5 @@
 (allycat_page)=
-# Timberwoof
+# Allycat
 
 **A balanced and adaptable companion, perfect for embarking on your adventure with versatility and reliability.**
 

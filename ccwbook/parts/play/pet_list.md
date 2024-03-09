@@ -1,4 +1,3 @@
-(pet_list)=
 # Pet List
 
 Here is a list of pets available in CodeCombat Worlds:

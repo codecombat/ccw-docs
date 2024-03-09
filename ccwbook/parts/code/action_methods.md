@@ -3,7 +3,7 @@
 
 Action methods are used to control the pet's behavior. They are used to make the pet move, attack, and perform other actions. The main difference with other methods that actions block the pet's execution until they are finished. This means that the pet will not do anything else until the action is completed. Usually, action methods return nothing.
 
-
+(hit_method)=
 ## `hit`
 
 **The pet attacks a single target.**
@@ -146,6 +146,7 @@ pet:say("Hello!")
 ```
 ````
 
+(spin_method)=
 ## `spin`
 
 **The pet spins around, dealing damage to all nearby enemies.**
@@ -170,7 +171,7 @@ pet:spin()
 
 ````{card}
 
-**Syntax:** The same as [`spin`](#spin).
+**Syntax:** The same as [`spin`](spin_method).
 ````
 
 ## `frostSlam`
@@ -179,7 +180,7 @@ pet:spin()
 
 ````{card}
 
-**Syntax:** The same as [`spin`](#spin).
+**Syntax:** The same as [`spin`](spin_method).
 ````
 
 ## `bite`
@@ -188,7 +189,7 @@ pet:spin()
 
 ````{card}
 
-**Syntax:** The same as [`hit`](#hit).
+**Syntax:** The same as [`hit`](hit_method).
 ````
 
 ## `frostBite`
@@ -197,7 +198,7 @@ pet:spin()
 
 ````{card}
 
-**Syntax:** The same as [`hit`](#hit).
+**Syntax:** The same as [`hit`](hit_method).
 ````
 
 ## `clash`
@@ -206,7 +207,7 @@ pet:spin()
 
 ````{card}
 
-**Syntax:** The same as [`hit`](#hit).
+**Syntax:** The same as [`hit`](hit_method).
 ````
 
 ## `chillClash`
@@ -215,5 +216,5 @@ pet:spin()
 
 ````{card}
 
-**Syntax:** The same as [`hit`](#hit).
+**Syntax:** The same as [`hit`](hit_method).
 ````
