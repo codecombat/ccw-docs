@@ -11,9 +11,11 @@ parts:
   chapters:
   - file: parts/play/pets_intro
   - file: parts/play/monsters_intro
+  - file: parts/play/battle_abilities
 - caption: Code
   chapters:
   - file: parts/code/code_intro
+  - file: parts/code/action_methods
 - caption: Create
   chapters:
   - file: parts/create/creative_intro
