@@ -76,6 +76,76 @@ end
 ```
 ````
 
+## `grab`
+
+**The pet grabs the given item.**
+
+````{card}
+
+**Syntax:** `pet:grab(target: ItemObject | string)`
+^^^
+**Arguments:**
+- `target` - the target to grab. 
+    - if target is a string then pet will grab the nearest item with the given tag.
+    - if target is a world object then pet will grab it.
++++
+**Examples:**
+````{tab-set}
+```{tab-item} Grab the nearest item
+```lua
+-- grab the nearest item
+pet:grab()
+```
+```{tab-item} Grab specific item
+```lua
+-- grab the nearest gem
+pet:grab("gem")
+```
+```{tab-item} Grab specific object
+```lua
+local items = pet:findItems()
+for _, it in items do
+    if it:hasTag("gem") then
+        pet:grab(it)
+    end
+end
+```
+````
+
+## `drop`
+
+**The pet drops the item it is carrying.**
+
+````{card}
+
+**Syntax:** `pet:drop()`
+
++++
+**Examples:**
+```lua
+pet:grab("gem")
+pet:moveTo(me)
+pet:drop()
+```
+````
+
+## `say`
+
+**The pet says the given message.**
+
+````{card}
+
+**Syntax:** `pet:say(message: string)`
+^^^
+**Arguments:**
+- `message` - the message to say.
++++
+**Examples:**
+```lua
+pet:say("Hello!")
+```
+````
+
 ## `spin`
 
 **The pet spins around, dealing damage to all nearby enemies.**
@@ -91,4 +161,59 @@ pet:moveTo("red-slime")
 pet:spin()
 pet:spin()
 ```
+````
+
+
+## `slam`
+
+**The pet slams the ground, dealing damage to all nearby enemies.**
+
+````{card}
+
+**Syntax:** The same as [`spin`](#spin).
+````
+
+## `frostSlam`
+
+**The pet slams the ground, dealing damage to all nearby enemies and slowing them down.**
+
+````{card}
+
+**Syntax:** The same as [`spin`](#spin).
+````
+
+## `bite`
+
+**The powerful bite attack.**
+
+````{card}
+
+**Syntax:** The same as [`hit`](#hit).
+````
+
+## `frostBite`
+
+**The pet bites the target, dealing damage and slowing it down.**
+
+````{card}
+
+**Syntax:** The same as [`hit`](#hit).
+````
+
+## `clash`
+
+**The pet quickly attacks the target several times.**
+
+````{card}
+
+**Syntax:** The same as [`hit`](#hit).
+````
+
+## `chillClash`
+
+**The pet quickly attacks the target several times and reduces its attack damage.**
+
+````{card}
+
+**Syntax:** The same as [`hit`](#hit).
 ````
