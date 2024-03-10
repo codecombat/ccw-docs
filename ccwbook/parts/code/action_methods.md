@@ -146,6 +146,29 @@ pet:say("Hello!")
 ```
 ````
 
+## `emote`
+
+**The pet performs the given emote.**
+
+````{card}
+
+**Syntax:** `pet:emote(emotionName: string)`
+^^^
+**Arguments:**
+- `emotionName` - the emote to perform, one of:
+    - `"yes"`
+    - `"no"`
+    - `"sad"`
+    - `"joy"`
+    - `"ask"`
++++
+**Examples:**
+```lua
+pet:emote("yes")
+```
+````
+ 
+
 (spin_method)=
 ## `spin`
 
