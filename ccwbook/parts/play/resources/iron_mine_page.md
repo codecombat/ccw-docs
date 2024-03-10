@@ -1,5 +1,4 @@
-(stone_diron_mine_pageeposit_page)=
-
+(iron_mine_page)=
 # Iron Mine
 
 Iron mines are the main source of iron in the game. They are less common than stone deposits and can be found in hard access locations. They have a grey body and blue spots.
