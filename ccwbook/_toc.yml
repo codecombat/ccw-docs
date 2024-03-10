@@ -20,6 +20,7 @@ parts:
   - file: parts/play/battler_stats
     sections:
       - file: parts/play/battle_abilities
+  - file: parts/play/resource_intro
 - caption: Code
   chapters:
   - file: parts/code/code_intro
