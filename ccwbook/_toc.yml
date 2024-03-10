@@ -16,8 +16,9 @@ parts:
       - file: parts/play/pets/timberwoof
       - file: parts/play/pets/allycat
       - file: parts/play/pets/hoverfish
-  - file: parts/play/monsters_intro
-  - file: parts/play/battle_abilities
+  - file: parts/play/battler_stats
+    sections:
+      - file: parts/play/battle_abilities
 - caption: Code
   chapters:
   - file: parts/code/code_intro
